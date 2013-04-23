@@ -300,14 +300,7 @@ NSString *const EAFPortalLoginViewControllerDefaultPassword = @"";
 #pragma portal delegate
 
 -(void)portalDidLoad:(AGSPortal *)portal{
-    //
-    // we want to limit this app to organizations only...unless anonymous access is enabled
-    if (!portal.portalInfo.organizationId && !self.allowAnonymousAccess) {
-        // if not an org, fail with Invalid Credentials
-        [self displayLoginFailureWithString:@"Invalid account. Account must be part of an organization."];
-        [self enableButtons:YES];
-        return;
-    }
+    // Open Access. 
     
     if ([_target respondsToSelector:_action]){
         EAFSuppressClangPerformSelectorLeakWarning([_target performSelector:_action withObject:self]);
