@@ -6,7 +6,7 @@ ArcGIS preview application to locate, view and interact with web maps. Code Cont
 ![App](https://raw.github.com/Esri/preview-app-osx/master/preview-app-osx.png)
 
 ## Features
-The ArcGIS Runtime Preview Application allows you to locate, view and interact with webmaps on a Mac OS X 10.8. 
+The ArcGIS Runtime Preview Application allows you to locate, view and interact with webmaps in  Mac OS X 10.8. 
 The application was constructed using the ArcGIS Runtime SDK for OS X (Beta) and the ESRI Application Framework (EAFKit).
 The code shows you how to hook up some of the ViewControllers provided in the EAFkit.
 
@@ -20,13 +20,15 @@ The code shows you how to hook up some of the ViewControllers provided in the EA
 
 ## Instructions
 
-1. Fork and then clone the repo. 
-2. Build and run the application.
+1. Fork and then clone the repository. 
+2. open the ArcGIS-Preview/ArcGIS-Preview.xcodeproj in XCode
+3. Build and run the project
 
 ## Requirements
 
-* Notepad or your favorite HTML editor
-* Web browser with access to the Internet
+* Apple Mac OS 10.8
+* [ArcGIS Runtime SDK for OS X](http://developers.arcgis.com/en/os-x/)
+* Apple XCode
 
 ## Resources
 
@@ -40,7 +42,6 @@ The code shows you how to hook up some of the ViewControllers provided in the EA
 ## Issues
 
 Find a bug or want to request a new feature?  Please let us know by submitting an issue.
-
 
 ## Contributing
 
